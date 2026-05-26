@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin</title>
+</head>
+<body>
+    <h1>Welcome to our Admin Page!</h1>
+    <!-- <h5>Raw Data: <%- JSON.stringify(data) %></h5> -->
+    <h2>No. of users in the DB or Json- <%= data.users.length %></h2>
+    <!-- Ye ek array return kar rha ha. Now, we can run a for loop for array! -->
+    <!-- konsa loop hota ha arrays ke liye ? ans- foreach -->
+     <!-- or ejs ka looping statement ? -->
+      <% (data.users).forEach(element => { %>
+    <h4><%= element.name %> <a href="http://localhost:3000/about/<%= element.name.toLowerCase() %>">/about/<%= element.name %></a></h4>
+      <% }) %>
+</body>
+</html>

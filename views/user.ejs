@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+</head>
+<body>
+    <h1>Welcome to our <%= foundUser.name %>'s page!</h1>
+    <h3><%= foundUser.name %>'s Role: <%= foundUser.role %></h3>
+    <h3><%= foundUser.name %>'s Activity Status: <% if (foundUser.isActive) { %>
+     <span>Yes</span>
+     <% } else { %>
+      <span>No</span>
+    <% } %></h3>
+    <h3><%= foundUser.name %>'s Skills: <% (foundUser.skills).forEach(element => { %>
+        <span><%= element %> </span>
+    <% }); %> 
+    </h3>
+</body>
+</html>

@@ -1,0 +1,53 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Piyush",
+      "role": "Full Stack Developer",
+      "isActive": true,
+      "skills": ["MongoDB", "Express.js", "React.js", "Node.js"]
+    },
+    {
+      "id": 2,
+      "name": "Prince",
+      "role": "Community Moderator",
+      "isActive": true,
+      "skills": ["Discord", "Management", "Communication"]
+    },
+    {
+      "id": 3,
+      "name": "Sam",
+      "role": "UI/UX Designer",
+      "isActive": false,
+      "skills": ["Figma", "Wireframing", "Prototyping"]
+    },
+    {
+      "id": 4,
+      "name": "Aman",
+      "role": "DevOps Engineer",
+      "isActive": true,
+      "skills": ["Docker", "Kubernetes", "AWS", "CI/CD"]
+    },
+    {
+      "id": 5,
+      "name": "Neha",
+      "role": "Data Analyst",
+      "isActive": false,
+      "skills": ["Python", "SQL", "Tableau", "Excel"]
+    },
+    {
+      "id": 6,
+      "name": "Kabir",
+      "role": "Frontend Developer",
+      "isActive": true,
+      "skills": ["React.js", "Tailwind CSS", "Redux", "TypeScript"]
+    },
+    {
+      "id": 7,
+      "name": "Riya",
+      "role": "QA Tester",
+      "isActive": true,
+      "skills": ["Selenium", "Jest", "Manual Testing", "Postman"]
+    }
+  ]
+}
